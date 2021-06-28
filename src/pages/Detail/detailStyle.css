@@ -1,0 +1,46 @@
+.detail {
+  height: 100vh;
+  background: #191818;
+  padding: 10rem 16rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subtitle {
+  font-size: 2rem;
+  color: aliceblue;
+}
+
+.title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .detail {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center;s */
+  }
+
+  .form {
+    margin-top: 60px;
+    text-align: center;
+  }
+
+  .subtitle {
+    font-size: 1.7rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .movie-list {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
